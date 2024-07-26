@@ -42,7 +42,7 @@ export default function DisplayData() {
     <div>
       <h2>Data Display</h2>
       <button onClick={()=>loadBoard()}>Board</button>
-      <button onClick={()=>writeBoard()}>글쓰기</button>
+      
       <div>{loadData()}</div>
     </div>
   );
